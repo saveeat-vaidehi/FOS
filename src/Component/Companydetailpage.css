@@ -1,0 +1,408 @@
+.mainOutlet {
+    height: auto;
+    width: auto;
+    background-color: #F5F6FB;
+
+}
+
+#comapnyDetailsPage {
+    /* border: 1px solid black; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 3px rgb(184, 180, 180);
+    padding: 10px 50px;
+    /* border: 3px solid red; */
+
+}
+
+.identityDetails {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-auto-flow: row
+}
+
+.mandatory {
+    color: red;
+}
+
+
+.signingDetails {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+    /* border: 1px solid blue; */
+
+
+}
+
+.billingDetails {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+}
+
+.billingDetails label{
+    height: 17px;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: black;
+    margin-bottom: -5px;
+    margin-top: 1rem;
+}
+
+.typesOptions {
+    /* border: 1px solid red; */
+}
+
+.singleDetail {
+    display: grid;
+    gap: 0.5rem;
+    /* border: 1px solid black; */
+}
+
+.subInputField {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.typesOptions {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+}
+
+.optionContainer {
+    display: grid;
+    gap: 0.5rem;
+    height: 100%;
+    /* border: 1px solid green ; */
+}
+
+#ownertype {
+   outline: none;
+}
+#bustype{
+  
+   outline: none;
+
+
+}
+
+.singleDetail label{
+    /* border: 1px solid red; */
+    height: 17px;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: black;
+    margin-bottom: -5px;
+    margin-top: 1rem;
+}
+
+.singleDetail input{
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    border-radius: 5px;
+    /* margin-bottom: 1rem; */
+    outline: none;
+    padding: 0.5rem;
+    /* border: 1px solid black; */
+}
+
+.subInputField{
+    /* border: 1px solid brown; */
+    gap: 4rem;
+
+}
+
+.subDiv1 {
+    margin-top: 0.4rem;
+
+    /* margin-left: -1px; */
+    h6 {
+        font-size: 16px;
+        margin-bottom: 7px;
+        font-weight: 700;
+    }
+}
+
+.errorcontainr textarea{
+    width: 100%;
+    height: 100% !important;
+   
+}
+
+
+
+@media (max-width: 990px) and (min-width: 700px) {
+    .heading2{
+        /* border: 1px solid red; */
+        h5{
+            font-size: 28px;
+           
+            margin-left: 0rem;   
+          }
+    }
+   
+    #comapnyDetailsPage {
+        /* border: 3px solid green; */
+        padding: 20px;
+    }
+    .subInputField {
+        grid-auto-flow: row;
+        /* border: 1px solid red; */
+        gap: 0.5rem;
+
+    }
+
+    .singleDetail input{
+
+        border: 1px solid #aea5a5;
+        /* margin-bottom: 0.7rem; */
+        padding: 2px 0px 2px 7px;
+        height: 3.5rem;
+        font-size: 22px;
+        margin-top:0.5rem;
+
+    }
+
+    .singleDetail label   {
+        font-size: 22.5px;
+        color: black;
+        margin-top: 0.5rem;
+       
+        
+    }
+
+    .subDiv1 {
+        margin-top: 0.5rem;
+
+        h6 {
+            font-size: 23.5px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+    }
+
+    .billingDetails textarea{
+        /* border: 1px solid greenyellow; */
+        height: 6rem !important;
+        padding: 7px;
+        font-size: 22px;
+    }
+
+
+    .identityDetails {
+        /* border: 1px solid rgb(81, 255, 0); */
+        grid-auto-flow: row;
+        gap: 0.5rem;
+
+    }
+
+    .signingDetails {
+        grid-auto-flow: row;
+    }
+
+    .typesOptions{
+      grid-auto-flow: row;
+    }
+
+    #ownertype {
+        height: 4rem !important;
+     
+    }
+   
+    
+
+
+
+}
+
+@media (max-width: 701px) and (min-width: 576px) {
+    .heading2{
+        /* border: 1px solid red; */
+        h5{
+            font-size: 27px;
+           
+            margin-left: 0rem;   
+          }
+    }
+   
+    #comapnyDetailsPage {
+        /* border: 3px solid rgb(181, 32, 174); */
+        padding: 1rem;
+    }
+
+    .subInputField {
+        grid-auto-flow: row;
+        /* border: 1px solid red; */
+        gap: 0.5rem;
+
+    }
+
+    .singleDetail input{
+
+        border: 1px solid #aea5a5;
+        /* margin-bottom: 0.7rem; */
+        padding: 2px 0px 2px 7px;
+        height: 3.5rem;
+        font-size: 21px;
+        margin-top:0.5rem;
+
+    }
+
+    .singleDetail label   {
+        font-size: 22px;
+        color: black;
+        margin-top: 0.5rem;
+       
+        
+    }
+
+    .subDiv1 {
+        margin-top: 0.5rem;
+
+        h6 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+    }
+
+    .billingDetails textarea{
+        /* border: 1px solid greenyellow; */
+        height: 6rem !important;
+        padding: 7px;
+        font-size: 19px;
+    }
+
+
+    .identityDetails {
+        /* border: 1px solid rgb(81, 255, 0); */
+        grid-auto-flow: row;
+gap: 0.5rem;
+    }
+
+    .signingDetails {
+        grid-auto-flow: row;
+    }
+
+    .typesOptions{
+        /* border: 1px solid black; */
+      grid-auto-flow: row;
+    }
+
+    #ownertype {
+        /* border: 1px solid black; */
+        height: 4rem !important;
+       
+    }
+   
+
+   
+}
+
+@media (max-width: 575px) and (min-width: 200px) {
+    .heading2{
+        /* border: 1px solid red; */
+        h5{
+            font-size: 25px;
+           
+            margin-left: 0rem;   
+          }
+    }
+
+    
+    #comapnyDetailsPage {
+        /* border: 3px solid rgb(82, 32, 181); */
+        padding: 1rem;
+        
+    }
+
+    .subInputField {
+        grid-auto-flow: row;
+        /* border: 1px solid red; */
+        gap: 0.5rem;
+    }
+
+    .identityDetails{
+        gap: 0.5rem;
+    }
+
+    .singleDetail{
+        gap: 0.8rem;
+    }
+
+    .singleDetail input{
+
+        border: 1px solid #aea5a5;
+        /* margin-bottom: 0.7rem; */
+        margin-bottom: 0.7rem;
+
+        padding: 2px 0px 2px 7px;
+        height: 2.5rem;
+        font-size: 20px;
+        /* border: 1px solid black; */
+
+    }
+
+    .singleDetail label   {
+        font-size: 20.5px;
+        color: black;
+        margin-top: 0.5rem;
+        
+       
+        /* border: 1px solid red; */
+        
+    }
+
+    .subDiv1 {
+        margin-top: 0.3rem;
+       
+
+        h6 {
+            font-size: 21px;
+            margin-bottom: 10px;
+            font-weight: 700;
+          
+       
+        }
+    }
+
+    .billingDetails textarea{
+        border: 1px solid #aea5a5;
+        height: 6rem !important;
+        padding: 7px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+
+    .identityDetails {
+        /* border: 1px solid rgb(81, 255, 0); */
+        grid-auto-flow: row;
+
+    }
+
+    .signingDetails {
+        grid-auto-flow: row;
+    }
+
+    .typesOptions{
+        /* border: 1px solid black; */
+      grid-auto-flow: row;
+    }
+
+    #ownertype {
+        /* border: 1px solid black; */
+        height: 4rem !important;
+       
+    }
+   
+}

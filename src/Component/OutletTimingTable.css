@@ -1,0 +1,264 @@
+.parentTime {
+
+    /* border: 1px solid rgb(106, 134, 124); */
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    grid-template-columns: 0.5fr 1.5fr;
+    font-family: sans-serif;
+    font-size: 14px;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.dayTxt {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.parentSlotsContainer {
+    /* border: 1px solid red; */
+    display: grid;
+    gap: 0.5rem;
+}
+
+
+.dayTxt h6 {
+    font-weight: 600;
+}
+
+.selectTimeContainer {
+    height: 2rem;
+    /* border: 1px solid red; */
+
+}
+
+.selectTimeParentContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+.plus_slots_container {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.day_switch_container {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.selectTimeContainer Select {
+    width: 100%;
+    height: 100%;
+    /* border: 10px solid rgb(221, 210, 210); */
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+/* .css-1dms391-control */
+
+
+.css-b62m3t-container{
+/* border: 2px solid blue; */
+width: 100%;
+height: 100%;
+/* border: 2px solid rgb(187, 184, 184); */
+padding: 0px !important;
+border-radius: 10px;
+}
+
+.css-1dms391-control{
+margin: 0px;
+padding: 0px !important;
+
+}
+.plus-btn button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 990px) and (min-width: 700px) {
+    .parentTime {
+        /* border: 6px solid rgb(21, 53, 216); */
+        display: grid;
+        grid-template-columns: none;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        box-sizing: border-box;
+        height: auto;
+        gap: 2rem;
+        border: none;
+
+    }
+
+    .dayTxt {
+        justify-content: start;
+    }
+
+    .dayTxt h6 {
+        font-weight: 600;
+        font-size: 27px;
+    }
+
+    .switchContainer svg {
+        height: 3rem;
+        width: 3.8rem;
+    }
+
+    .selectTimeContainer {
+        height: 4rem;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        padding-left: 4px;
+        border: none;
+
+    }
+
+    .centerTxt span {
+        font-size: 1.6rem;
+    }
+
+    .plus-btn button svg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .selectTimeContainer select {
+
+        /* border: 3px solid black; */
+        padding: 0.5rem;
+    }
+
+
+
+}
+
+@media (max-width: 700px) and (min-width: 576px) {
+    .parentTime {
+        /* border: 2px solid rgb(21, 53, 216); */
+        display: grid;
+        grid-template-columns: none;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        box-sizing: border-box;
+        height: auto;
+
+    }
+
+    .dayTxt {
+        justify-content: start;
+
+
+    }
+
+    .dayTxt h6 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .switchContainer svg {
+        height: 3rem;
+        width: 3.8rem;
+    }
+
+    .selectTimeContainer {
+        height: 4rem;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        padding-left: 4px;
+    }
+
+    .centerTxt span {
+        font-size: 1.6rem;
+    }
+
+    .plus-btn button svg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+
+}
+
+@media (max-width: 575px) and (min-width: 200px) {
+    .parentTime {
+        /* border: 2px solid rgb(182, 181, 185); */
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        padding: 5px;
+        box-sizing: border-box;
+        height: auto;
+        /* border: 3px solid red; */
+        gap: 0.5rem;
+    }
+
+    .dayTxt {
+        justify-content: start;
+
+
+    }
+    .selectTimeParentContainer{
+        gap: 0.5rem;
+    }
+
+    .dayTxt h6 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .switchContainer svg {
+        height: 3rem;
+        width: 3.8rem;
+    }
+
+    .selectTimeContainer {
+        height: 4rem;
+        font-size: 1.31rem;
+        font-family: sans-serif;
+        padding-left: 0px;
+        /* border: 1px solid rgb(115, 115, 118); */
+    }
+
+    .centerTxt span {
+        font-size: 1.6rem;
+    }
+
+    .plus-btn button svg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .css-b62m3t-container{
+        border: 1px solid rgb(173, 173, 178);
+        width: 100%;
+        height: 90%;
+        padding: 0px !important;
+        border-radius: 10px;
+        }
+        
+        .css-1dms391-control{
+        /* border: 2px solid red; */
+        margin: 0px;
+        padding: 0px !important;
+        
+        }
+}

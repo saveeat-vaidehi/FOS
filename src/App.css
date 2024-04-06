@@ -1,0 +1,123 @@
+.MainForm {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #F5F6FB;
+  /* border: 1px solid black; */
+
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F6FB;
+
+}
+
+.saveBtn {
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 1rem;
+}
+
+.saveBtn button {
+  height: 68px;
+
+  background-color: transparent;
+  /* border: 1px solid rgb(30, 29, 29); */
+  color: rgb(21, 20, 20);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  width: 130px;
+}
+
+.form-error{
+  color: rgb(249, 69, 69);
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 7px;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.errorcontainr{
+  /* border: 1px solid black; */
+  margin-bottom: 1rem;
+
+}
+
+.toast-center {
+  text-align: center;
+}
+
+
+.disable_elements{
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media (max-width: 700px) and (min-width: 990px) {}
+
+/* Styles for medium devices (tablets) */
+@media (max-width: 991px) and (min-width: 576px) {
+
+  .MainForm {
+    padding-left: 2px;
+    padding-right: 2px;
+    max-width: 100%;
+    display: grid;
+    /* border: 5px solid red; */
+    width: 100%;
+    /* justify-content: end; */
+  }
+
+  .App {
+    /* border: 5px solid red; */
+    display: block;
+    margin: none;
+    width: 100%;
+  }
+
+
+
+
+
+
+}
+
+/* Styles for small devices (mobile) */
+@media (max-width: 575px) and (min-width: 200px) {
+
+  .MainForm {
+
+    /* border: 1px solid rgb(37, 209, 31); */
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    gap: 1rem !important;
+  }
+
+  .App {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    background-color: #F5F6FB;
+    /* border: 1px solid black; */
+  }
+
+}
