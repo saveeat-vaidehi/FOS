@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/saveeat-vaidehi/FOS.git/static/css/main.0c8d2e3a.css",
-    "main.js": "/saveeat-vaidehi/FOS.git/static/js/main.31385b95.js",
-    "index.html": "/saveeat-vaidehi/FOS.git/index.html",
-    "main.0c8d2e3a.css.map": "/saveeat-vaidehi/FOS.git/static/css/main.0c8d2e3a.css.map",
-    "main.31385b95.js.map": "/saveeat-vaidehi/FOS.git/static/js/main.31385b95.js.map"
+    "main.css": "/saveeat-vaidehi/FOS/static/css/main.0c8d2e3a.css",
+    "main.js": "/saveeat-vaidehi/FOS/static/js/main.31385b95.js",
+    "index.html": "/saveeat-vaidehi/FOS/index.html",
+    "main.0c8d2e3a.css.map": "/saveeat-vaidehi/FOS/static/css/main.0c8d2e3a.css.map",
+    "main.31385b95.js.map": "/saveeat-vaidehi/FOS/static/js/main.31385b95.js.map"
   },
   "entrypoints": [
     "static/css/main.0c8d2e3a.css",
